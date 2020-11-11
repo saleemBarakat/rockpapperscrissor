@@ -4,42 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="rock papper scissor game is a game that you can play where you choose rock or papper or scissor and depending on an your opponents move you can either win on lose">
+    <meta name="description"
+        content="rock papper scissor game is a game that you can play where you choose rock or papper or scissor and depending on an your opponents move you can either win on lose">
     <meta name="keywords" content="rock papper scissor game, sten sax påse spel">
-    <title>Rock Papper Scrissors Game</title>
+    <title>Sten Sax Påse</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
     <!--Rubrik-->
     <header>
-        <h1>Rock Papper Scrissors</h1>
+        <h1>Sten Sax Påse</h1>
     </header>
     <!--resultats tavlan-->
     <div class="score-board">
-        <div id="user-label" class="badge">User</div>
-        <div id="computer-label" class="badge">Comp</div>
+        <div id="user-label" class="badge">Användare</div>
+        <div id="computer-label" class="badge">Dator</div>
         <span id="user-score">o</span>:<span id="computer-score">o</span>
     </div>
     <div class="result">
-        <p>Papper covers Rock,You win!</p>
+        <p>Sten Sax Påse</p>
     </div>
     <!--valen man kan göra när man spelar-->
     <div class="choices">
         <div class="choice" id="r">
             <img src="images/hand-rock.png">
-        </div>
-        <div class="choice" id="p">            
-            <img src="images/hand-paper.png">
+            <p class="description-of-the-images">Sten</p>
+
         </div>
         <div class="choice" id="s">
             <img src="images/hand-scissors.png">
+            <p class="description-of-the-images">Sax</p>
+
         </div>
+        <div class="choice" id="p">
+            <img src="images/hand-paper.png">
+            <p class="description-of-the-images">Påse</p>
+        </div>
+
     </div>
     <!--Meddelande som säger att man ska göra ett val-->
-    <p id="action-message">Make your move</p>
-    
+    <p id="action-message">Gör ett Drag...</p>
+
     <script src="app.js"></script>
 </body>
+
 </html>
