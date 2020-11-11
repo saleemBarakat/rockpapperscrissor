@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papper Scrissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Rock Papper Scrissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">o</span>:<span id="computer-score">o</span>
+    </div>
+    <div class="result">
+        <p>Papper covers Rock,You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="images/hand-rock.png">
+        </div>
+        <div class="choice" id=pr">            
+            <img src="images/hand-paper.png">
+        </div>
+        <div class="choice" id="s">
+            <img src="images/hand-scissors.png">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+    
+    <script src="app.js"></script>
+</body>
+</html>
