@@ -32,6 +32,17 @@ body {
 .lenk:hover {
     opacity: 100%;
 }
+.front-end-lenk {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    opacity: 50%;
+    text-decoration: none;
+    color: black;
+}
+.front-end-lenk:hover {
+    opacity: 100%;
+}
 
 h1 {
     padding: 20px;
