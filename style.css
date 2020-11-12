@@ -21,6 +21,18 @@ body {
     border-radius: 50%;
 }
 
+.lenk {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    opacity: 50%;
+    text-decoration: none;
+    color: black;
+}
+.lenk:hover {
+    opacity: 100%;
+}
+
 h1 {
     padding: 20px;
 }
