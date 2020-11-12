@@ -8,14 +8,24 @@
 
 body {
     background-color: #24272e;
+    background-image: url('https://helsingborg.se/wp-content/uploads/2020/05/programmeringsutbildning-1200x675.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-header {
-    background: white;
+.helsingborg_stad_logo {
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+    opacity: 80%;
+    border-radius: 50%;
+}
+
+h1 {
     padding: 20px;
 }
 
-header h1 {
+h1 {
     color: #24272e;
     text-align: center;
 }
@@ -37,11 +47,9 @@ header h1 {
 .score-board span {
     margin: 0 10px;
     font-size: 70px;
-    padding: 0 20px;
 }
 
 .badge {
-    background: #E2584D;
     font-size: 30px;
     padding: 2px 10px;
 }
@@ -49,7 +57,7 @@ header h1 {
 #user-label {
     position: absolute;
     top: 45px;
-    left: -100px;
+    left: -166px;
 }
 
 #computer-label {
@@ -68,7 +76,7 @@ header h1 {
     font-weight: bold;
 }
 
-/* style for rock papper scissors  images*/
+/* style fär Sten Sax Påse bilderna*/
 
 .choices {
     margin: 50px 0;
@@ -104,16 +112,21 @@ header h1 {
     font-size: 20px;
     color: white;
 }
+
+/*style för alternativen när färgen ändras till t.ex. grön om man vinner eller röd om man förlörar*/
+
 .green-glow {
     background-color: rgb(0, 201, 0);
     border: rgb(0, 201, 0);
     box-shadow: 0px 0px 10px rgb(0, 201, 0);
 }
+
 .red-glow {
     background-color: rgb(255, 0, 0);
     border: rgb(255, 0, 0);
     box-shadow: 0px 0px 10px rgb(255, 0, 0);
 }
+
 .gray-glow {
     background-color: rgb(136, 136, 136);
     border: rgb(136, 136, 136);
