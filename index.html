@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="rock papper scissor game is a game that you can play where you choose rock or papper or scissor and depending on an your opponents move you can either win on lose">
+    <meta name="description" content="rock papper scissor game is a game that you can play where you choose either rock or papper or 
+        scissor and depending on your opponents move you can either win or lose.">
     <meta name="keywords" content="rock papper scissor game, sten sax påse spel">
     <title>Sten Sax Påse</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -26,7 +27,6 @@
         <div class="choice" id="r">
             <img src="images/hand-rock.png">
             <p class="description-of-the-images">Sten</p>
-
         </div>
         <div class="choice" id="s">
             <img src="images/hand-scissors.png">
@@ -37,16 +37,23 @@
             <img src="images/hand-paper.png">
             <p class="description-of-the-images">Påse</p>
         </div>
-
     </div>
     <!--Meddelande som säger att man ska göra ett val-->
     <p id="action-message">Gör ett Drag...</p>
 
     <!--helsingborg stads logo-->
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLAKddJ5epvjmnYQWxGRp3arLnXjEeoIteEA&usqp=CAU" class="helsingborg_stad_logo">
-    <a href="https://github.com/saleemBarakat" class="lenk">Saleem Barakat</a>
-    <a href="https://komvux.helsingborg.se/utbildningar-och-kurser/grundlaggande-programmering/" class="front-end-lenk">Front-End Developer</a>
+    <a href="https://komvux.helsingborg.se/utbildningar-och-kurser/grundlaggande-programmering/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLAKddJ5epvjmnYQWxGRp3arLnXjEeoIteEA&usqp=CAU"
+        class="helsingborg_stad_logo">
+    </a>
 
+    <div class="connect-button">
+        <button class="github-btn" style="background-color: #000000; color: white;" onclick="window.location.href =
+            'https://github.com/saleemBarakat';"><i class="fa fa-github" aria-hidden="true"></i></button>
+        <button class="linkedin-btn"
+            onclick="window.location.href = 'https://www.linkedin.com/in/saleem-barakat-80b40a1a9/'"><i
+                class="fa fa-linkedin" aria-hidden="true"></i></button>
+    </div>
     <script src="app.js"></script>
 </body>
 
